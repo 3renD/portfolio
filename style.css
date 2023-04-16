@@ -42,7 +42,7 @@ body {
 .toolbar ul li a:hover{
   background-color: white;
   color: rgb(0, 0, 10);
-  box-shadow: 0 0 10px white;
+  box-shadow: 0 0 11px white;
 }
 /* layout */
 .hero{
