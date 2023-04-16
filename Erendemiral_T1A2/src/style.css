@@ -1,0 +1,296 @@
+/* website body */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 10);
+}
+
+/* nav bar */
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 10);
+  position: sticky;
+  top: 0;
+}
+.toolbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+.toolbar ul li{
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.toolbar ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: 0.5s;
+}
+.toolbar ul li a:hover{
+  background-color: white;
+  color: rgb(0, 0, 10);
+  box-shadow: 0 0 11px white;
+}
+/* layout */
+.hero{
+  height: 50vw;
+  max-height: 300px;
+  width: 100%;
+}
+/* Home */
+.hero.hero-home {
+    background: url(/img/homehero.jpg) no-repeat center;
+    background-size: cover;
+}
+#home{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 10);
+  border-top-style: solid;
+  border-color: white;
+  color: white;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.headings{
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0px;
+}
+.subheadings{
+  font-family: century;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0px;
+  margin-bottom: 40px;
+}
+.resumebtn{
+  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: 0.5s;
+  appearance: button;
+  text-decoration: none;
+}
+.resumebtn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;  
+  font-weight: bold;
+}
+.resumeimg {
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+}
+
+/* profile */
+.hero.hero-profile {
+  background: url(/img/profilehero.avif) no-repeat center;
+  background-size: cover;
+}
+#profile{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 10);
+  border-top-style: solid;
+  border-color: white;
+  color: white;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.profileheadings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0px;
+}
+.profilesubheadings {
+  font-family: century;
+  font-weight: bold;
+}
+.profilepara {
+  font-size: 1.2rem;
+  font-family: century;
+  text-align: center;
+  max-width: 1500px;
+  margin: 20px 0px;
+}
+.personimg {
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+}
+/* blog */
+.hero.hero-blog {
+  background: url(/img/bloghero.avif) no-repeat center;
+  background-size: cover;
+}
+#blog{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 10);
+  border-top-style: solid;
+  border-color: white;
+  color: white;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.headings{
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+/* blog list */
+
+.blog-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-section .blog {
+  margin: 20px;
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.blog-section .blog:hover {
+  background-color: lightgrey;
+  color: rgb(0, 0, 10);
+  box-shadow: 0 0 10px lightgray;
+}
+
+.blog img {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  color: white;
+  margin: 10px;
+}
+
+.blog p{
+  text-align: center;
+  font-family: century;
+  color: black;
+}
+
+/* blog pages */
+.blogp {
+  font-size: 1.2rem;
+  font-family: century;
+  text-align: center;
+  max-width: 1500px;
+}
+.blog1 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 50px;
+}
+.blog2 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 50px;
+}
+.blog3 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 50px;
+}
+.blog4 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 50px;
+}
+.blog5 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+/* contacts */
+.hero.hero-contact {
+  background: url(/img/contacthero.avif) no-repeat center;
+  background-size: cover;
+}
+#contact{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 10);
+  border-top-style: solid;
+  border-color: white;
+  color: white;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.headings{
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0px;
+}
+.contact-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-section .contact {
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.contact-section .contact:hover {
+  background-color: lightgrey;
+  color: rgb(0, 0, 10);
+  box-shadow: 0 0 10px lightgray;
+}
+
+.contact img {
+  height: 100px;
+  width: 100px;
+  color: white;
+}
+
+.contact p{
+  text-align: center;
+}
