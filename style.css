@@ -30,7 +30,7 @@ body {
   margin: 20px 0px;
 }
 .toolbar ul li{
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -70,13 +70,13 @@ body {
   align-items: center
 }
 .headings{
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   text-align: center;
   margin: 20px 0px;
 }
 .subheadings{
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
@@ -123,18 +123,18 @@ body {
   flex-direction: column;
 }
 .profileheadings {
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   text-align: center;
   margin: 20px 0px;
 }
 .profilesubheadings {
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 .profilepara {
   font-size: 1.2rem;
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   max-width: 1500px;
   margin: 20px 0px;
@@ -163,7 +163,7 @@ body {
   align-items: center
 }
 .headings{
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   text-align: center;
   margin: 20px 0px;
@@ -208,7 +208,7 @@ body {
 /* blog pages */
 .blogp {
   font-size: 1.2rem;
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   max-width: 1500px;
 }
@@ -262,7 +262,7 @@ body {
   align-items: center
 }
 .headings{
-  font-family: century;
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   text-align: center;
   margin: 20px 0px;
